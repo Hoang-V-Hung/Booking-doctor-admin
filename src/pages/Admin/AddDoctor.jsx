@@ -74,7 +74,7 @@ const AddDoctor = () => {
     }
 
     return (
-        <form onSubmit={onSubmitHandler} className='m-5 w-full'>
+        <form onSubmit={onSubmitHandler} className='w-full max-w-6xl m-5'>
 
             <p className='mb-3 text-lg font-medium'>Thêm bác sĩ</p>
 
