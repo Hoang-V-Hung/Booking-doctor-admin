@@ -12,7 +12,7 @@ const DoctorsList = () => {
   }, [aToken])
 
   return (
-    <div className='m-5 max-h-[90vh] overflow-y-scroll'>
+    <div className='w-full max-w-6xl m-5 max-h-[90vh] overflow-y-scroll'>
       <h1 className='text-lg font-medium'>Tất cả bác sĩ</h1>
       <div className='w-full flex flex-wrap gap-4 pt-5 gap-y-6'>
         {
