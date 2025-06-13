@@ -78,7 +78,7 @@ const Dashboard = () => {
   }
 
   return dashData && (
-    <div className='m-5'>
+    <div className='w-full max-w-6xl m-5'>
 
       <div className='flex flex-wrap gap-3'>
         {/* Các card hiện có */}
